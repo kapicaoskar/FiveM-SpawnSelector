@@ -1,0 +1,281 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    font-size: 0.75vw;
+    user-select:none;
+}
+
+:root {
+    --navbar-bg: #0d0415;
+    --button-bg: #3e2364;
+    --button-bg-light: #634094;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(https://cdn.discordapp.com/attachments/1001532629713162310/1001672449500385310/mapgta5.png);
+
+}
+
+
+.header {
+font-weight: italic;
+font-family: calibri;
+color: white;
+opacity: 0.8;
+font-size: 1.6vw;
+padding-top: 1.5vw;
+}
+
+
+.name {
+    font-weight: bold;
+font-family: calibri;
+color: white;
+opacity: 0.8;
+font-size: 1.8vw;
+
+}
+
+.container > .navbar {
+    width: 19.7%;
+    height: 100%;
+    background: var(--navbar-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+}
+
+.text {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8vw;
+    font-family: calibri;
+    margin-left: -0.3vw;
+}
+
+
+
+
+.text2 {
+    font-family: calibri;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3vw;
+    opacity: 0.8;
+}
+
+.text2 {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.icon {
+    font-family: calibri;
+    font-weight: bold;
+}
+
+#iconlast {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4vw;
+    padding-top: 0.4vw;
+}
+
+.container > .navbar .header-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    align-items: center;
+}
+
+.container > .navbar .button {
+    width: 70%;
+    display: flex;
+    gap: 1vw;
+    background-color: var(--button-bg);
+    padding: 0.6vw;
+    margin-bottom: 0.1vw;
+    border-radius: 0.7vw;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+}
+
+.container > .navbar .button:hover {
+    background-color: #634094;
+    
+}
+
+
+.container > .navbar .button-click {
+    background-color:  var(--button-bg-light);
+}
+
+.container > .navbar .button .icon {
+    pointer-events: none;
+    width: 1.2vw !important;
+    height: 1vw !important;
+    border-radius: 50%;
+    border: 0.05vw solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2vw;
+    color: white;
+}
+
+.container > .navbar .button .text-box {
+    pointer-events: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container > .navbar .button .text-box .timestamp {
+    opacity: 0.8;
+    color: white;
+    font-weight: 400;
+    font-family: calibri;
+    margin-left: -0.3vw;
+}
+
+
+#buttonchar {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-family: calibri;
+    font-weight: bold;
+    border-radius: 0.2vw;
+    font-size: 0.9vw;
+    width: 9.7vw;
+    padding: 0.4vw;
+    opacity: 0.8;
+    margin-top: 7.8vw;
+}
+
+#buttonchar:hover {
+    background-color: #634094;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+
+#buttonchar2 {
+    background-color: #634094;
+    color: white;
+    border-color: white;
+    font-family: calibri;
+    font-weight: bold;
+    border-style: hidden;
+    margin-top: auto;
+    padding: 0.4vw;
+    border-radius: 0.2vw;
+    font-size: 0.9vw;
+    width: 9.7vw;
+    opacity: 0.8;
+    margin-top: 6.4vw;
+    display: none;
+}
+
+
+#buttonchar2:hover {
+    background-color: #3e2364;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+
+/* BLIPS */
+#gpsicon {
+    color : white;
+    font-size: 1.2vw;
+    margin-top: 0.50vw;
+}
+
+.blip1 {
+    width: 2vw;
+    margin-top: -16vw;
+    height: 2vw;
+    background-color: var(--button-bg);
+    border-radius: 0.2vw;
+    margin-left: -55vw;
+}
+
+
+.blip2 {
+    width: 2vw;
+    margin-top: -14vw;
+    height: 2vw;
+    background-color: var(--button-bg);
+    border-radius: 0.2vw;
+    margin-left: -46vw;
+}
+
+
+.blip3 {
+    width: 2vw;
+    margin-top: 5vw;
+    height: 2vw;
+    background-color: var(--button-bg);
+    border-radius: 0.2vw;
+    margin-left: -32vw;
+}
+
+.blip4 {
+    width: 2vw;
+    margin-top: -8.5vw;
+    height: 2vw;
+    background-color: var(--button-bg);
+    border-radius: 0.2vw;
+    margin-left: -57vw;
+}
+
+.blip5 {
+    width: 2vw;
+    margin-top: 0vw;
+    height: 2vw;
+    background-color: var(--button-bg);
+    border-radius: 0.2vw;
+    margin-left: -75vw;
+}
+
+
+
+
+.blip6 {
+    width: 2vw;
+    margin-top: -6.5vw;
+    height: 2vw;
+    background-color: var(--button-bg);
+    border-radius: 0.2vw;
+    margin-left: -160vw;
+}
+
+
+
+
+
+
+.blip7 {
+    width: 2vw;
+    margin-top: -15.3vw;
+    height: 2vw;
+    background-color: var(--button-bg);
+    border-radius: 0.2vw;
+    margin-left: -123.4vw;
+}

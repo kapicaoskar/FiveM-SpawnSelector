@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oskar-Selector</title>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css">
+    <link rel="stylesheet" href="css/root.css">
+    <script src="script/js.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="header-box">
+                <div class="header" id="headier">Witaj ponownie</div>
+                <div class="name" id="charname">Jacek Ragan</div>
+            </div>
+            <div class="text2" id="text2">Powrót na miejsce</div>
+            <div class="button" data-id="1" data-name="last_spawn" id="lasterek">
+                <i class="fa-thin fa-circle-arrow-right" id="iconlast"></i>
+                <div class="text-box">
+                    <div class="text" id="streetnamer">Pillbox Hill</div>
+                    <div class="timestamp" id="leavetime">18/07/2022 20:30</div>
+                </div>
+            </div>
+            <div class="text2" id="text3">Inne miejsca</div>
+            <div class="button" data-id="2" data-name="apartamenty">
+                <div class="icon">1</div>
+                <div class="text-box">
+                    <div class="text">Apartamenty Los Santos</div>
+                </div>
+            </div>
+            <div class="button" data-id="3" data-name="airport_ls">
+                <div class="icon">2</div>
+                <div class="text-box">
+                    <div class="text">Lotnisko Międzynarodowe</div>
+                </div>
+            </div>
+            <div class="button" data-id="4" data-name="eclipse">
+                <div class="icon">3</div>
+                <div class="text-box">
+                    <div class="text">Eclipse Medical Tower</div>
+                </div>
+            </div>
+            <div class="button" data-id="5" data-name="peron">
+                <div class="icon">4</div>
+                <div class="text-box">
+                    <div class="text">Peron Ghetto</div>
+                </div>
+            </div>
+            <div class="button" data-id="6" data-name="molo">
+                <div class="icon">5</div>
+                <div class="text-box">
+                    <div class="text">Dell Perro Pier</div>
+                </div>
+            </div>
+            <div class="button" data-id="7" data-name="motel">
+                <div class="icon">6</div>
+                <div class="text-box">
+                    <div class="text">Motel Paleto</div>
+                </div>
+            </div>
+            <div class="button" data-id="8" data-name="boat">
+                <div class="icon">7</div>
+                <div class="text-box">
+                    <div class="text">Boat House Sandy Shores</div>
+                </div>
+            </div>
+
+            <center>
+                <button id="buttonchar2" onclick="intogame()">
+                    Wejdź do gry
+                </button> <br>
+                <button id="buttonchar" onclick="otherchar()">
+                    Wybierz inną postać
+                </button>
+                </center>
+                <div class="blip1" data-id="6">
+                    <center><i class="fa-light fa-location-dot" id="gpsicon"></i></center>
+                </div>
+                <div class="blip2" data-id="5">
+                    <center><i class="fa-light fa-location-dot" id="gpsicon"></i></center>
+                </div>
+                <div class="blip3" data-id="3">
+                    <center><i class="fa-light fa-location-dot" id="gpsicon"></i></center>
+                </div>
+                <div class="blip4" data-id="2">
+                    <center><i class="fa-light fa-location-dot" id="gpsicon"></i></center>
+                </div>
+                <div class="blip5" data-id="4">
+                    <center><i class="fa-light fa-location-dot" id="gpsicon"></i></center>
+                </div>
+                <div class="blip6" data-id="7">
+                    <center><i class="fa-light fa-location-dot" id="gpsicon"></i></center>
+                </div>
+                <div class="blip7" data-id="8">
+                    <center><i class="fa-light fa-location-dot" id="gpsicon"></i></center>
+                </div>
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
